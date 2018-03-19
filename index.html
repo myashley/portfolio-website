@@ -15,67 +15,81 @@
 
 <body>
 <div class="wrapper">
-    <header>
-        <img class="logo" alt="Logo of Ashley, a letter A on an angled yellow box" src="/assets/img/logo-ashley.png"/>
+    <header id="home">
+        <img class="logo" alt="Logo of Ashley, a letter A on an angled yellow box" src="/assets/img/logo-ashley.png" />
         <p>Love coding &#8729; Love life</p>
     </header>
     <main>
-        <section>
-            <h1 class="heading-left"><div class="heading-block"></div><span>B</span>io</div></h1>
-            <div class="heading-block-green"></div>          
-            <p>Ashley Tsai, a reader, a coder, and a little crazy about design. Her brain capacity divides into three parts: logic, creativity, and life enjoyment.</p>
-            <p>Currently studying programming at Coder Academy, proudly surrounded by a group of geeks mates who are also passionate about technology. She has two secret dreams: to become a full stack developer; and to shake an alien’s hand.</p>
-            <p>Ashley has obtained qualifications in design, multimedia and business, and has previously worked as an e-commerce assistant, a web consultant, a web administrator, and a web content producer. </p>       
-            <p>Though her career path stays mainly within the digital/web industry,  she also enjoys nature, walks her dog, and goes travel whenever she can.</p>       
-            <p>Bringing creativity into coding to make people’s life easier is what drives her passion forward. To learn, to create, and to give back.</p>       
+        <section id="bio" class="section-top">
+            <h1><div class="heading-block"></div><span>B</span>io</div></h1>
+            <div class="heading-block-green"></div> 
+            <article>        
+                <p>Ashley Tsai, a reader, a coder, and a little crazy about design. Her brain capacity divides into three parts: logic, creativity, and life enjoyment.</p>
+                <p>Currently studying programming at Coder Academy, proudly surrounded by a group of geeks mates who are also passionate about technology. She has two secret dreams: to become a full stack developer; and to shake an alien’s hand.</p>
+                <p>Ashley has obtained qualifications in design, multimedia and business, and has previously worked as an e-commerce assistant, a web consultant, a web administrator, and a web content producer. </p>       
+                <p>Though her career path stays mainly within the digital/web industry,  she also enjoys nature, walks her dog, and goes travel whenever she can.</p>       
+                <p>Bringing creativity into coding to make people’s life easier is what drives her passion forward. To learn, to create, and to give back.</p>       
+            </article>
+            <aside>
+                <div class="education desc">
+                    <h2>Education</h2>
+                    <hr class="h2-underline" />
+    
+                    <h3>Diploma of Information Technology</h3>
+                    <p>Coder Academy</p>
+    
+                    <h3>Certificate IV in Design</h3>
+                    <p>Shillington College</p>
+    
+                    <h3>Diploma of IT (Multimedia)</h3>
+                    <p>Holmesglen Institute</p>
+    
+                    <h3>Bachelor of Business</h3>
+                    <p>Swinburne University of Technology</p>
+                </div>
+            </aside> 
+
+            <aside>
+                <div class="work desc">
+                    <h2>Work</h2>
+                    <hr class="h2-underline" />
+    
+                    <h3>E-Commerce Assistant</h3>
+                    <p>Port Phillip Publishing, Melbourne</p>
+    
+                    <h3>Web Consultant</h3>
+                    <p>FortisBC, Vancouver</p>
+    
+                    <h3>Web Administrator</h3>
+                    <p>Swinburne University of Technology</p>
+    
+                    <h3>Web Content Producer</h3>
+                    <p>Selby Acoustic, Melbourne</p>
+                </div>
+            </aside>
             
-            <div class="education">
-                <h2>Education</h2>
-
-                <h3>Diploma of Information Technology</h3>
-                <p>Coder Academy</p>
-
-                <h3>Certificate IV in Design</h3>
-                <p>Shillington College</p>
-
-                <h3>Diploma of IT (Multimedia)</h3>
-                <p>Holmesglen Institute</p>
-
-                <h3>Bachelor of Business</h3>
-                <p>Swinburne University of Technology</p>
-            </div> 
-
-            <div class="work">
-                <h2>Work</h2>
-
-                <h3>E-Commerce Assistant</h3>
-                <p>Port Phillip Publishing, Melbourne</p>
-
-                <h3>Web Consultant</h3>
-                <p>FortisBC, Vancouver</p>
-
-                <h3>Web Administrator</h3>
-                <p>Swinburne University of Technology</p>
-
-                <h3>Web Content Producer</h3>
-                <p>Selby Acoustic, Melbourne</p>
-            </div>
-
-            <div class="resume">
-                <h2>Resume</h2>
-
-                <a class="red-button" href="/assets/doc/resume.pdf">PDF</a>
-                <a class="red-button" href="/assets/doc/resume.pdf">DOC</a>
-            </div>
-
-            <div class="connect">
-                <h2>Connect</h2>
-                <a href="https://www.linkedin.com/in/ashley-tsai-a3966a15b/" target="_blank">LinkedIn</a>
-                <a href="https://codepen.io/myashley/" target="_blank">CodePen</a>
-                <a href="https://github.com/myashley" target="_blank">GitHub</a>
-            </div>
+            <aside>
+                <div class="resume">
+                    <h2>Resume</h2>
+                    <hr class="h2-underline" />
+    
+                    <a class="red-button" href="/assets/doc/resume.pdf">PDF</a>
+                    <a class="red-button" href="/assets/doc/resume.pdf">DOC</a>
+                </div>
+            </aside>
+            
+            <aside>
+                <div class="connect">
+                    <h2>Connect</h2>
+                    <hr class="h2-underline" />
+    
+                    <a href="https://www.linkedin.com/in/ashley-tsai-a3966a15b/" target="_blank">LinkedIn</a>
+                    <a href="https://codepen.io/myashley/" target="_blank">CodePen</a>
+                    <a href="https://github.com/myashley" target="_blank">GitHub</a>
+                </div>
+            </aside>       
         </section>
-        <section>
+        <section id="skills" class="section-middle">
             <h1>Skills</h1>
             <ul>
                 <li>HTML</li>
@@ -84,7 +98,7 @@
                 <li>RUBY</li>
             </ul>
         </section>
-        <section>
+        <section id="contact" class="section-bottom">
             <h1>Contact</h1>
             <form name="contact" method="POST" netlify>
                 <p>
@@ -102,7 +116,14 @@
               </form>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#bio">Bio</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
 </div>
 </body>
 </html>
