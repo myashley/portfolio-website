@@ -3,7 +3,7 @@
     color: #515151;
 }
 
-.wrapper{
+/* .wrapper{
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -11,16 +11,16 @@
       "header"
       "main"
       "footer"
-  }
+  } */
 
-header {
+/* header {
     grid-area: header;
     display: grid;
     /* height: 50vh; */
-  }
+  /* } */ 
 
 
-img.logo {
+/* img.logo {
     min-width: 50px;
     max-width: 200px;
     right: -67%;
@@ -66,4 +66,4 @@ div.heading-block::before {
     top: 70%;
     transform: translate(-50%, -50%) rotate(45deg);
     z-index: -1;
-}
+} */
