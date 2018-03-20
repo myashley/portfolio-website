@@ -1,11 +1,11 @@
 # Ashley's Porfolio Website
-URL: URL.com 
+URL: https://ashley.netlify.com/ 
 
 # Design Process
 ## Concept Development
 The design process started with picking the keywords from my bio to drive as the main concepts throughout my design. 
 
-I listed out the main points about me:
+I listed out some points about me:
 - Quite but a little crazy / shy but a little adventurous
 - Brain capacity: 1/3 logic, 1/3 creativity, 1/3 random
 - Enjoy little things in life
