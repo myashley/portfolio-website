@@ -18,23 +18,29 @@
 <div class="wrapper">
     <header id="home">
         <img class="logo" alt="Logo of Ashley, a letter A on an angled yellow box" src="/assets/img/logo-ashley.png" />
-        <!-- <p class="ashley">Ashley</p> -->
         <p class="quote">Love coding &#8729; Love life</p>
     </header>
     <main>
+<!-- Bio  -->
         <section id="bio" class="section1">
-            <h1><div class="heading-block"></div><span>B</span>io</h1>
-            <hr class="heading-underline" />
+            <div class="heading-block-green"></div>
+            <div class="heading-block">
+                <h1><span>B</span>io</h1>
+                <hr class="heading-underline" />
+            </div>
+            
+            <div class="spacer"></div>
 
-            <div class="heading-block-green"></div> 
-            <article>        
-                <p>Ashley Tsai, a reader, a coder, and a little crazy about design. Her brain capacity divides into three parts: logic, creativity, and life enjoyment.</p>
-                <p>Currently studying programming at Coder Academy, proudly surrounded by a group of <span style="text-decoration: line-through;">geeks</span> mates who are also passionate about technology. She has two secret dreams: to become a full stack developer; and to shake an alien’s hand.</p>
-                <p>Ashley has obtained qualifications in design, multimedia and business, and has previously worked as an e-commerce assistant, a web consultant, a web administrator, and a web content producer. </p>       
-                <p>Though her career path stays mainly within the digital/web industry,  she also enjoys nature, walks her dog, and goes travel whenever she can.</p>       
-                <p>Bringing creativity into coding to make people’s life easier is what drives her passion forward. To learn, to create, and to give back.</p>       
-            </article>
-            <div class="education desc">
+            <p>Ashley Tsai, a reader, a coder, and a little crazy about design. Her brain capacity divides into three parts: logic, creativity, and life enjoyment.</p>
+            <p>Currently studying programming at Coder Academy, proudly surrounded by a group of <span style="text-decoration: line-through;">geeks</span> mates who are also passionate about technology. She has two secret dreams: to become a full stack developer; and to shake an alien’s hand.</p>
+            <p>Ashley has obtained qualifications in design, multimedia and business, and has previously worked as an e-commerce assistant, a web consultant, a web administrator, and a web content producer. </p>       
+            <p>Though her career path stays mainly within the digital/web industry,  she also enjoys nature, walks her dog, and goes travel whenever she can.</p>       
+            <p>Bringing creativity into coding to make people’s life easier is what drives her passion forward. To learn, to create, and to give back.</p>       
+            
+
+            <div class="flex-container ">
+
+            <div class="flex-item desc">
                 <h2>Education</h2>
                 <hr class="heading-underline" />
 
@@ -51,7 +57,7 @@
                 <p>Swinburne University of Technology</p>
             </div>
 
-            <div class="work desc">
+            <div class="flex-item desc">
                 <h2>Work</h2>
                 <hr class="heading-underline" />
 
@@ -68,7 +74,7 @@
                 <p>Selby Acoustic, Melbourne</p>
             </div>
 
-            <div class="resume">
+            <div class="flex-item">
                 <h2>Resume</h2>
                 <hr class="heading-underline" />
 
@@ -76,7 +82,7 @@
                 <a class="button file link-style" href="/assets/doc/resume.pdf" target="_blank">DOC</a>
             </div>
     
-            <div class="connect">
+            <div class="flex-item">
                 <h2>Connect</h2>
                 <hr class="heading-underline" />
 
@@ -84,11 +90,21 @@
                 <a class ="button icon" href="https://codepen.io/myashley/" target="_blank"><img src="assets/img/icon-codepen.svg" alt="CodePen" title="CodePen" /></a>
                 <a class ="button icon" href="https://github.com/myashley" target="_blank"><img src="assets/img/icon-github.svg" alt="GitHub" title="GitHub" /></a>
             </div>
-      
+            
+            </div>
+
         </section>
+
+<!-- Skills  -->
         <section id="skills" class="section2">
-            <h1><span>S</span>kills</h1>
-            <hr class="heading-underline" />
+            <div class="heading-block-yellow"></div>
+            <div class="heading-block">
+                <h1 class="shift-right"><span>S</span>kills</h1>
+                <hr class="heading-underline" />
+            </div>
+
+            <div class="spacer"></div>
+
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -96,16 +112,23 @@
                 <li>RUBY</li>
             </ul>
         </section>
+<!-- Contact  -->
         <section id="contact" class="section3">
-            <h1><span>C</span>ontact</h1>
-            <hr class="heading-underline" />
+            <div class="heading-block-blue"></div>
+            <div class="heading-block">
+                <h1><span>C</span>ontact</h1>
+                <hr class="heading-underline" />
+            </div>
+
+            <div class="spacer"></div>
+
             <form name="contact" method="POST" netlify>
                 
-                  <input type="text" name="name" placeholder="Name*"/> 
+                  <input type="text" name="name" placeholder="Name*" pattern=".{2,}" required /> 
                
-                  <input type="email" name="email" placeholder="Email*">
+                  <input type="email" name="email" placeholder="Email*" required />
                 
-                  <textarea name="message" placeholder="Message*"></textarea>
+                  <textarea name="message" placeholder="Message*" pattern=".{2,}" required ></textarea>
             
                   <button class="button send" type="submit">Send</button>
                 
