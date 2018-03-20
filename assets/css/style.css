@@ -58,10 +58,22 @@ footer {
 img.logo {
     max-width: 250px;
     width: 100%;
-    grid-column: -1 / -4;
-    grid-row: -6 / -2;
+    /* position: absolute;
+    bottom: 10%;
+    right: 0; */
+    grid-column: -1 / -6;
+    grid-row: -4 / -6;
 }
 
+p.ashley {
+    font-family: 'Over the Rainbow', cursive;
+    grid-column: 7 / -3;
+    grid-row: -6 / -6;
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.1em;
+    
+}
 
 p.quote {
     grid-column: 1 / 11;
