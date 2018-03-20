@@ -84,7 +84,7 @@ footer {
 img.logo {
     width: 200px;
     position: absolute; 
-    bottom: 100px;
+    bottom: 110px;
     right: 0; 
 }
 p.quote {
@@ -93,7 +93,7 @@ p.quote {
     line-height: 2.1em;
     border-top: 0.5px solid #515151;
     position: absolute;
-    bottom: 130px;
+    bottom: 140px;
     width: 86%;
 }
 .heading-block-green {
@@ -237,7 +237,7 @@ a {
 /* Navigation */
 nav {
     position: fixed;
-    bottom: 0;
+    bottom: 1%;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -269,6 +269,12 @@ nav > a:hover {
         right: 0;
         margin-left: auto;
         margin-right: auto;
+    }
+    img.logo {
+        bottom: 80px;
+    }
+    p.quote {
+        bottom: 110px;
     }
 }
 
