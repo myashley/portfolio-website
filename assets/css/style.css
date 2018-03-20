@@ -84,7 +84,7 @@ footer {
 img.logo {
     width: 200px;
     position: absolute; 
-    bottom: 80px;
+    bottom: 100px;
     right: 0; 
 }
 p.quote {
@@ -93,7 +93,7 @@ p.quote {
     line-height: 2.1em;
     border-top: 0.5px solid #515151;
     position: absolute;
-    bottom: 110px;
+    bottom: 130px;
     width: 86%;
 }
 .heading-block-green {
@@ -137,7 +137,6 @@ p.quote {
 .shift-right {
     text-align: right;
 }
-
 
 
 
@@ -185,6 +184,19 @@ textarea {
 }
 
 
+/* Skill block styles */
+.skill-block {
+    display: inline-block;
+    border: 1px solid #FBD432;
+    text-align: center;
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 100px;
+    max-height: 200px;
+    margin: 5px;
+    line-height: 7em;
+}
+
 
 /* Links */
 a {
@@ -222,7 +234,44 @@ a {
 }
 
 
+/* Navigation */
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav > a {
+    display: inline-block;
+    text-align: center;
+    min-width: 80px;
+    max-width: 200px;
+    height: 30px;
+    background: rgba(81, 81, 81, 0.5);
+    color: #FFFFFF;
+    line-height: 2em;
+    font-weight: normal;
+}
+
+nav > a:hover {
+    background: rgba(81, 81, 81, 0.8);
+}
+
 /* Media Queries */
+@media only screen and (min-width: 768px) {
+    nav {
+        position: fixed;
+        top: 2%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media only screen and (min-width: 800px) {
     body {
         width: 800px;
