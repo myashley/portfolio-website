@@ -17,8 +17,8 @@
 <body>
 <div class="wrapper">
     <header id="home">
-        <img class="logo" alt="Logo of Ashley, a letter A on an angled yellow box" src="/assets/img/logo.png" />
-        <p class="ashley">Ashley</p>
+        <img class="logo" alt="Logo of Ashley, a letter A on an angled yellow box" src="/assets/img/logo-ashley.png" />
+        <!-- <p class="ashley">Ashley</p> -->
         <p class="quote">Love coding &#8729; Love life</p>
     </header>
     <main>
@@ -29,7 +29,7 @@
             <div class="heading-block-green"></div> 
             <article>        
                 <p>Ashley Tsai, a reader, a coder, and a little crazy about design. Her brain capacity divides into three parts: logic, creativity, and life enjoyment.</p>
-                <p>Currently studying programming at Coder Academy, proudly surrounded by a group of geeks mates who are also passionate about technology. She has two secret dreams: to become a full stack developer; and to shake an alien’s hand.</p>
+                <p>Currently studying programming at Coder Academy, proudly surrounded by a group of <span style="text-decoration: line-through;">geeks</span> mates who are also passionate about technology. She has two secret dreams: to become a full stack developer; and to shake an alien’s hand.</p>
                 <p>Ashley has obtained qualifications in design, multimedia and business, and has previously worked as an e-commerce assistant, a web consultant, a web administrator, and a web content producer. </p>       
                 <p>Though her career path stays mainly within the digital/web industry,  she also enjoys nature, walks her dog, and goes travel whenever she can.</p>       
                 <p>Bringing creativity into coding to make people’s life easier is what drives her passion forward. To learn, to create, and to give back.</p>       
@@ -72,17 +72,17 @@
                 <h2>Resume</h2>
                 <hr class="heading-underline" />
 
-                <a class="red-button" href="/assets/doc/resume.pdf">PDF</a>
-                <a class="red-button" href="/assets/doc/resume.pdf">DOC</a>
+                <a class="button file link-style" href="/assets/doc/resume.pdf" target="_blank">PDF</a>
+                <a class="button file link-style" href="/assets/doc/resume.pdf" target="_blank">DOC</a>
             </div>
     
             <div class="connect">
                 <h2>Connect</h2>
                 <hr class="heading-underline" />
 
-                <a href="https://www.linkedin.com/in/ashley-tsai-a3966a15b/" target="_blank">LinkedIn</a>
-                <a href="https://codepen.io/myashley/" target="_blank">CodePen</a>
-                <a href="https://github.com/myashley" target="_blank">GitHub</a>
+                <a class ="button icon" href="https://www.linkedin.com/in/ashley-tsai-a3966a15b/" target="_blank"><img src="assets/img/icon-linkedin.svg" alt="LinkedIn" title="LinkedIn" /></a>
+                <a class ="button icon" href="https://codepen.io/myashley/" target="_blank"><img src="assets/img/icon-codepen.svg" alt="CodePen" title="CodePen" /></a>
+                <a class ="button icon" href="https://github.com/myashley" target="_blank"><img src="assets/img/icon-github.svg" alt="GitHub" title="GitHub" /></a>
             </div>
       
         </section>
@@ -100,18 +100,15 @@
             <h1><span>C</span>ontact</h1>
             <hr class="heading-underline" />
             <form name="contact" method="POST" netlify>
-                <p>
+                
                   <input type="text" name="name" placeholder="Name*"/> 
-                </p>
-                <p>
+               
                   <input type="email" name="email" placeholder="Email*">
-                </p>
-                <p>
+                
                   <textarea name="message" placeholder="Message*"></textarea>
-                </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
+            
+                  <button class="button send" type="submit">Send</button>
+                
               </form>
         </section>
     </main>

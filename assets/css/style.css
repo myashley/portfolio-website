@@ -4,7 +4,7 @@
 }
 
 /* Setting grid */
-html{
+html {
     display: flex;
     flex-flow: row nowrap;  
     justify-content: center;
@@ -24,7 +24,7 @@ body {
     -moz-box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
 }
-.wrapper{
+.wrapper {
     display: grid;
     grid-template-areas:
       "header"
@@ -37,8 +37,7 @@ header {
     grid-area: header;
     display: grid;
     height: 100vh;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);
+    position: relative;
 } 
 main {
     grid-area: main;
@@ -46,6 +45,7 @@ main {
 }
 section {
     margin: 100px 30px 50px 30px;
+    font-size: 0.9em;
 }
 footer {
     grid-area: footer;
@@ -56,32 +56,19 @@ footer {
 
 /* Positioning items */
 img.logo {
-    max-width: 250px;
-    width: 100%;
-    /* position: absolute;
-    bottom: 10%;
-    right: 0; */
-    grid-column: -1 / -6;
-    grid-row: -4 / -6;
+    width: 200px;
+    position: absolute; 
+    bottom: 80px;
+    right: 0; 
 }
-
-p.ashley {
-    font-family: 'Over the Rainbow', cursive;
-    grid-column: 7 / -3;
-    grid-row: -6 / -6;
-    margin: 0;
-    font-size: 1.5em;
-    line-height: 1.1em;
-    
-}
-
 p.quote {
-    grid-column: 1 / 11;
-    grid-row: -5 / -4;
     margin: 0;
     font-size: 0.8em;
     line-height: 2.1em;
     border-top: 0.5px solid #515151;
+    position: absolute;
+    bottom: 110px;
+    width: 88%
     
 }
 
@@ -148,3 +135,48 @@ div.heading-block::before {
 
 
 
+input, textarea {
+    background-color: rgba(164, 211, 237, 0.2);
+    border: 0;
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 3px 10px 3px 0;
+    width: 96%
+}
+
+textarea {
+    height: 100px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Red button */
+.button {
+    display: inline-block;
+    background: #EB3B42;
+    border: 0;
+    color: #FFFFFF;
+    margin-top: 5px;   
+}
+.button:hover {
+    background: rgba(234, 61, 66, 0.7);
+}
+.file {
+    padding: 5px 25px;
+    margin-right: 5px;
+}
+.icon {
+    padding: 20px;
+    margin-right: 5px;
+}
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+.send {
+    padding: 5px 35px;
+    float: right;
+}
