@@ -52,7 +52,6 @@ main {
 section {
     margin: 100px 30px 50px 30px;
     font-size: 0.9em;
-    /* max-width: 800px; */
 }
 footer {
     grid-area: footer;
@@ -199,6 +198,9 @@ textarea {
     line-height: 7em;
 }
 
+.skill-block:hover{
+    animation: pulse 1s linear;
+}
 
 /* Links */
 a {
@@ -217,7 +219,7 @@ a {
 }
 .button:hover {
     background: rgba(234, 61, 66, 0.7);   
-    animation: pulse 0.5s linear;
+    /* animation: pulse 0.5s linear; */
 }
 .file {
     padding: 5px 25px;
@@ -260,7 +262,7 @@ nav > a {
 
 nav > a:hover {
     background: rgba(81, 81, 81, 0.8);
-    animation: pulse 0.5s linear;
+    /* animation: pulse 0.5s linear; */
 }
 
 /* Media Queries */
@@ -311,6 +313,7 @@ nav > a:hover {
 }
 
 /* Animation */
+/* Fade in from top to bottom */
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
@@ -344,7 +347,7 @@ nav > a:hover {
     }
   }
 
- 
+ /* Scale pop */
   @-webkit-keyframes pulse {
     from {
       -webkit-transform: scale3d(1, 1, 1);
@@ -380,6 +383,7 @@ nav > a:hover {
   }
   
 
+/* Fade in from left */
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
