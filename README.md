@@ -36,11 +36,12 @@ After the moodboard has been created, I used Palette Creator to create two colou
 
 ![Palette-2](/assets/img/palette2.png)
 
-After a few experiments, the following colour palette has been decided:
-
-![Colour-Palette](/assets/img/colour-palette.png)
+After a few experiments, the following colour palette has been decided (Please refer to style guide below).
 
 ### Layout
+Based on the moodboard, the wireframes have been created using Figma.
+
+![Wireframe](/assets/img/wireframe.png)
 
 ### Typography
 Since the colours and layout are jumpy to represent the creative side of me, I would like the font choice to be more "logical": clear and simple to read, less is best.
@@ -48,7 +49,45 @@ Since the colours and layout are jumpy to represent the creative side of me, I w
 Hence the Google font, "Roboto", has been chosen to be my main font throughout the website. 
 
 ## Style Guide
+### Colour
+![Colour-Palette](/assets/img/colour-palette.png)
 
+### Font
+![Roboto](/assets/img/roboto.png)
 
-# Improvement
+### Buttons
+Call for action buttons:
+```
+#EB3B42
+```
+![Red-Button](/assets/img/redbutton.png)
 
+Hover effect:
+```
+rgba(81, 81, 81, 0.5);
+```
+
+![Red-Button-Hover](/assets/img/redbutton-hover.png)
+
+Navigation buttons:
+```
+rgba(81, 81, 81, 0.5);
+```
+
+Hover effect:
+```
+rgba(81, 81, 81, 0.8);
+```
+
+# Development Process
+## What went well
+The design process went well down the track. Once the colours, layout, typography have been decided, it is easier to design the wireframes and start the build process. I learnt a lot especially when I encountered challenges, learning more by trying to fix the issues. It ended up I speeded up my build process towards the later stage even if I need to change the grid structure.
+
+## What was challenging
+Trying to adapt the grid system to position the items were a headache to me, as my layout is mostly in "free style". Working out which is best to use is quite essential before applying the grid system to the web layout. 
+
+## What got changed
+As I know better about the grid system and flexbox, I changed the layout methods around to fit for their best use. For example, the main sections were in grid, and later now changed to flexbox in order to go according to the wireframe design.
+
+## Where to from here
+I would like to be able to adapt the css3 and HTML5 to replace the deprecated code wherever possible and make the website more interactive and interesting.
